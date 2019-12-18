@@ -50,13 +50,19 @@ var _jsxFileName = "/home/erick/.ghq/github.com/Aireck2/next-redux-antd-example/
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Home = function Home() {
-  return __jsx("h1", {
+  return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 1
+      lineNumber: 2
     },
     __self: this
-  }, "HOME");
+  }, __jsx("button", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, "add"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
